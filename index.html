@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+   <div class="container">
+    <div class="heading">
+  <h1><bold>Learn to code by watching others</bold></h1>
+   <p></p> 
+   
+  <p><small> how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable.</small></p>
+    </div>
+       
+        <div class="text">
+      <caption class="caption"><strong>Try it free 7 days</strong> <small>then $20/mo. thereafter</small></caption>
+        </div>
+        <p></p>
+
+        <form name="myForm">
+          <div class="input-group">
+  <input type="text" id="first" name="first"  placeholder="First Name"  onkeyup="validateFirst()"/> 
+          <span id="first-error"></span>
+         </div>
+
+         <div class="input-group">
+  <input type="text" id="last"name="last" placeholder="Last Name" onkeyup="validateLast()"/>
+        <span id="last-error"></span>
+       </div>
+
+       <div class="input-group">
+  <input type="email" id="mail" name="mail" placeholder="Email" onkeyup="validateEmail()"/>
+  <span id="email-error"> </span>
+  </div>
+
+  <div class="input-group">
+  <input type="password" id="password"  name="Password" placeholder="password" onkeyup="validatePassword()"/>
+  <span id="password-error"></span>
+        </div>
+        
+     <p></p>
+  <button type="submit" class="button" onclick="validateForm()">CLAIM YOUR FREE TRIAL</button>  
+  <span id="submit-error"></span>
+     <p>
+  <small class="by">By clicking the button, you are agreeing to our </small><strong class="terms">Terms and Services</strong>
+    </p>
+  </form>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Edeh Sharon</a>.
+    </p>
+  </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

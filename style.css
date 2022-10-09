@@ -1,0 +1,88 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@500;700&family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    Font-size: 16px;  
+   color: hsl(245, 25%, 90%); 
+}
+.container{
+    background-image: url(/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    background-size: 800px;
+    width: 100%;
+    height: auto;
+     padding: 6px 6px 6px 6px;
+    max-width: 100%;
+    min-width: 100%;
+    border: 2px ;
+    background-color:  hsl(0, 100%, 74%);
+   
+}
+
+.text{
+    margin: auto;
+    padding: 11px;
+    width: 358px;
+    border: 1px ;  
+    border-radius: 4px;
+    height: auto;
+    background-color:hsl(248, 32%, 49%) ;
+    text-align: center;
+}
+
+input{
+    vertical-align:middle;
+    margin: 11px 20px 10px 11px;
+    padding: 10px;
+    width: 348px;
+    border: 1px solid hsl(246, 25%, 77%);  
+    border-radius: 4px;
+}
+form{
+    margin: auto;
+    background-size: 150px 50px;
+   width: 400px;
+   border:2px;
+   background-color: hsl(252, 24%, 96%);
+   max-width: 389px;
+   border-radius: 1px;
+   
+}
+.button{
+    width: 389px ;
+    height: auto;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 2px;
+    color: hsl(246, 25%, 77%);
+    padding: 11px;
+    justify-content: center;
+}
+.terms{
+    color: hsl(0, 100%, 74%);
+}
+
+.by{
+    color: rgb(158, 168, 177);
+}
+
+.button:hover{
+    background-color: rgb(103, 185, 26);
+    transition: 0.7s;
+}
+.heading{
+    width: 100%;
+    height: auto;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.input-group span{
+    position: absolute;
+    font-size: 14px;
+    color: red;
+}
+#submit-error{
+    color: red;
+}
